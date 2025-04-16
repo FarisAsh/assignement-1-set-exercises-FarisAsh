@@ -1,0 +1,124 @@
+/*restting the whole layout essentially*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body Styling*/
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/*Header*/
+header {
+    background-color: #17072b;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+header h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    border-bottom: 4px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/*Navigation*/
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+/*Navigation hover styles and all*/
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*Main Content styling*/
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+/*Welcome*/
+.welcome {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.welcome h2 {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.welcome p {
+    margin-bottom: 20px;
+}
+
+.welcome img {
+    width: 100%;
+    height: auto;
+}
+
+/* Line Up (Right-Bottom, basically "Aside") */
+.line-up {
+    flex: 1;
+    background-color: #172d67;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.line-up h2 {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.line-up ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.line-up li {
+    margin-bottom: 10px;
+}
+
+/*Images inside the Line-Up section*/
+.line-up .images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.line-up img {
+    width: 48%;
+    height: auto;
+}
+
+/*Footer*/
+footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
