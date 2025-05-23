@@ -1,0 +1,100 @@
+/*Basic Theme*/
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/*Calculator container*/
+.container {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 35px 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+
+/*Heading*/
+h1 {
+  margin-bottom: 24px;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+/*Input box*/
+label {
+  display: block;
+  margin: 18px 0 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #444;
+  text-align: left;
+}
+
+/*Input Fields*/
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Highlighting on input with a focus*/
+input[type="number"]:focus {
+  border-color: #3498db;
+  outline: none;
+  background-color: #f0faff;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.2);
+}
+
+/*Button*/
+button {
+  margin-top: 24px;
+  padding: 14px 26px;
+  font-size: 1rem;
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.4s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Hover Effect for button*/
+button:hover {
+  background: linear-gradient(135deg, #2980b9, #2471a3);
+  transform: translateY(-2px);
+}
+
+/*Paragraph for displaying the total*/
+#totalCost {
+  margin-top: 25px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2e7d32;
+  background: #eafaf1;
+  border: 1px solid #c8e6c9;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+/*styling*/
+@media (max-width: 500px) {
+  .container {
+    padding: 25px 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
